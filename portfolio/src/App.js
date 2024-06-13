@@ -1,8 +1,13 @@
+import Header from "./globalComponents/Header";
+
 function App() {
   return (
-    <div className="App">
-     <h1>Hi, Welcome !!!</h1>
-    </div>
+    <>
+      <Header />
+      <div className="App">
+        <h1>Hi, Welcome !!!</h1>
+      </div>
+    </>
   );
 }
 
